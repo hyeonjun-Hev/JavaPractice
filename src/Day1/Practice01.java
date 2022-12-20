@@ -1,3 +1,4 @@
+package Day1;
 
 class Coffee{
     private int price;

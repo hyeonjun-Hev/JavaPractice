@@ -1,6 +1,16 @@
+package Day1;
+
 class Field {
     static int classVar = 10;
     int instanceVar = 20;
+}
+
+class changeValue {
+    public int changeV(int a){
+        a=20;
+        return a;
+    }
+
 }
 
 
@@ -31,10 +41,7 @@ public class Member01 {
 
         System.out.println(myF1.instanceVar);//200
         System.out.println(myF2.instanceVar);//20
-
-
-
-
+        //인스턴스 생성시 변수는 메모리에 올라간다.
 
     }
 }

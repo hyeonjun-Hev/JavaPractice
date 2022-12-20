@@ -1,5 +1,5 @@
+package Day1;
 
-import javax.swing.plaf.synth.SynthEditorPaneUI;
 import java.util.Arrays;
 public class arrPrac {
 
@@ -17,6 +17,7 @@ public class arrPrac {
         int[][] b = {{1,2,3,5,6},{0,2},{123,5672,111,01}};
         System.out.println(Arrays.deepToString(b));
         System.out.println(Arrays.deepToString(arr2));//for 문을 쓰지 않고 출력을 가능하게 해주는 친구
+        System.out.println(arr2.getClass().getSimpleName());
         //Arrays를 import시켜야 사용할 수 있다.
 //        System.out.println("# Output 1");
 //        for (int i = 0; i < arr2.length; i++) {
