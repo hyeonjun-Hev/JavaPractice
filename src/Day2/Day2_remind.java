@@ -3,7 +3,11 @@ package Day2;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
+
 class Arr{
+
+
+
     int[][] test = {
             {1,2},
             {3,4,5},
@@ -33,6 +37,7 @@ class nameReturn{
 }
 public class Day2_remind {
     public static void main(String[] args) {
+
         Arr a = new Arr();
 //        System.out.println(Arrays.toString(a.test2));
 //        System.out.println(Arrays.deepToString(a.test));//deeptoString은 다차원 , toString은 1차원 배열을 의미함
