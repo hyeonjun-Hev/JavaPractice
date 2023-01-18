@@ -17,6 +17,6 @@ public class Inheritance {
         Parent pa = new Parent(); // 허용
         Child ch = new Child();   // 허용
         Parent pc = new Child();  // 허용
-        Child cp = new Parent();  // 오류 발생. why?
+//        Child cp = new Parent();  // 오류 발생. why?
     }
 }
